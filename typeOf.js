@@ -1,5 +1,5 @@
 const typeOf = (type) => {
-console.log(typeof type)
+return typeof type
 }
 
-typeOf(42)
+console.log(typeOf(42))

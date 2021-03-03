@@ -6,6 +6,6 @@ console.log(isOdd(6))
 
 
 const isEven = (nb) => {
-return (isOdd(nb) ? false : true)
+return (!isOdd(nb))
 }
 console.log(isEven(6))
